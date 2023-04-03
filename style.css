@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgba(14, 50, 72, 1);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+}
+
+.nav-logo {
+    width: 47px;
+    /*! float: left; */
+    padding: 7px 0px;
+}
+
+.nav-link {
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+}
+
+.nav-links {
+    float: right;
+    padding: 20.5px 0;
+}
+
+.header-nav {
+    background-color: rgba(225, 225, 225, 0.05);
+    height: 61px;
+}
+
+.container {
+    width: 1201px;
+    margin: auto;
+}
+
+.nav-link a {
+    color: rgb(225, 225, 225);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links li:first-child a {
+    font-weight: bold;
+}
+
+.header-logo {
+    width: 191px;
+    margin-bottom: 13px;
+    border: 7px solid white;
+    border-radius: 100%;
+}
+.header-name {
+    font-size: 37px;
+    margin-bottom: 13px;
+}
+.a-buttons {
+    background: linear-gradient(45deg, rgb(87, 203, 151) 10%, rgb(178, 236, 131) 90%);
+    text-decoration: none;
+    padding: 13px 23px;
+    border-radius: 13px;
+    color: white;
+    font-weight: bold;
+}
+.header-info {
+    color: rgb(225, 225, 225);
+    margin: 89px auto;
+    width: 599px;
+    text-align: center;
+}
+.header-text {
+    margin-bottom: 31px;
+}
